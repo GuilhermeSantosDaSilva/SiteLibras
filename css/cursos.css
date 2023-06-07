@@ -1,0 +1,46 @@
+.curso-intro h2 {
+  margin-bottom: 20px;
+}
+
+.curso-lista {
+  margin-top: 20px;
+}
+
+.cada-curso p:nth-of-type(odd) {
+  font-weight: bold;
+}
+.cada-curso p:nth-of-type(even) {
+  margin: 40px 0 -25px 0;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ Para adicionar linhas verticais
+ <div class="vertical-line"></div>
+
+.sec-cursos {
+  display: inline-block;
+  justify-content: center;
+}
+
+
+
+.vertical-line {
+  width: 1px;
+  background-color: #000; 
+  height: 100px;
+  border: 5px inset;
+}
+*/

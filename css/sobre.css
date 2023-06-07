@@ -1,0 +1,43 @@
+.sobre-sec h1 {
+  margin-top: 50px;
+}
+
+.sobre-sec h1:after {
+  background-color: #000;
+}
+
+.sobre-sec p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.sobre p {
+  margin-top: 75px;
+  font-size: 18px;
+  text-align: right;
+}
+
+.sobre-cursos {
+  height: 500px;
+  background-image: url("../imagens/maos/numero-um-em-libras.jpg");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.sobre-footer {
+  margin-top: 0px;
+}
+
+.paragrafo1 {
+  margin-left: 55px;
+}
+
+.paragrafo2 {
+  margin-right: 65px;
+  display: flex;
+  float: right;
+}
+
+
+
+

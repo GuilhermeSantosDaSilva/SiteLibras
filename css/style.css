@@ -1,0 +1,273 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-style: italic;
+  text-align: center;
+}
+
+h1:after {
+  content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+
+/* Botão call */ 
+
+.call {
+	padding-top: 60px;
+  text-align: center;
+  clear: both;
+}
+
+.call p{
+  font-size: 12px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.btn{
+  padding: 10px 30px;
+  border: 2px solid grey;
+  color: gray;
+  font-weight: bold;
+}
+
+
+.btn:hover {
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+.btn.btn-white:hover {
+  color: #000;
+  border: 3px solid #000;
+}
+
+
+
+
+/* Header */
+.header  {
+  background-color: #000;
+  height: 100px;
+  border-bottom: 2px solid #fff;
+}
+
+.header ul{
+  margin: 45px auto auto 120px;
+}
+
+.logo {
+  margin-top: 35px;
+}
+
+.header ul li{
+  display: inline;
+  margin-right: 15px;
+}
+
+.header ul li a{
+  color: gray;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.header ul li a:hover {
+  color: #fff;
+}
+
+.header ul li a.active{
+  color: #fff;
+}
+
+
+
+/* intro-Sobre */
+
+.intro-sobre {
+  background-image: url("../imagens/maos/mao-punho.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.introducao {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.introducao p {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+/* Intro-Cursos */
+
+.intro-cursos {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.lista-curso {
+  text-align: center;
+}
+
+
+.curso img:hover {
+  border: 3px solid gray;
+}
+
+.curso img{
+  border: 2px solid #000;
+  margin: 0 auto;
+}
+
+.intro-cursos .call p {
+  color: #000;
+}
+
+/* intro-produtos*/
+
+.intro-produtos {
+  margin-top: 50px;
+  background-color: #000;
+  color: #fff;
+  height: 800px;
+}
+
+
+.produto{
+  clear: both;
+}
+
+.intro-produtos h2 {
+  margin-top: 50px;
+}
+
+.produto img {
+  margin-bottom: 20px;
+  border-radius: 100%;
+}
+.produto p {
+  margin-top: 50px;
+}
+
+/* intro-Eventos */
+
+.intro-eventos h2 {
+  margin-top: 50px;
+}
+
+.img-event {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-eventos .call p {
+  color: #000;
+}
+
+/* footer */
+
+/* Fixar no final da página mas tá dando conflito com o botão na pg cursos.
+footer {
+  position: absolute;
+  bottom:0;
+  width:100%;
+}
+*/
+
+.footer {
+  margin-top: 70px;
+  background-color: #000;
+  color: gray;
+  height: 130px;
+  clear: both;
+}
+
+.footer h3 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.redes li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.copy {
+  background-color: gray;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

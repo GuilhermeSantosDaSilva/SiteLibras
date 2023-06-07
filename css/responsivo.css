@@ -1,0 +1,288 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+  .sobre-cursos {
+    background-repeat: no-repeat;
+  }
+
+}
+
+@media only screen and (max-width: 787px) {
+
+
+  /* Componentes Gerais */ 
+  h1 {
+    text-align: left;
+    margin-left: 120px;
+  }
+
+  h1:after {
+    margin: 10px 0 0 80px;
+  }
+
+  h2 {
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+  }
+
+  .call {
+    text-align: center;
+    padding-left: 100px;
+    width: 400px;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    height: 300px;
+  }
+
+  .logo {
+    margin-left: 130px;
+  }
+
+  .header nav {
+    margin: 30px 0 0 95px;
+  }
+
+  .header ul {
+    width: 400px;
+    height: 150px;
+    margin: 0px; 
+  }
+
+  .header nav ul li {
+    border: 1.5px solid #fff;
+    width: 136px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    float: left;
+  }
+
+  /*Sobre-Intro*/
+
+  .intro-sobre {
+    height: 500px;
+  }
+
+  .introducao {
+    width: 415px;
+    margin-top: 50px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .introducao p {
+    margin: 40px 0 0 55px;
+    line-height: 24px;
+  }
+
+  /* Cursos-Intro */
+
+  .intro-cursos .container{
+    display: inline-block;
+    width: 600px;
+    height: 800px;
+  }
+
+  .lista-curso {
+    margin-left: 92px;
+    text-align: center;
+  }
+
+  .curso {
+    margin-bottom: 35px;
+  }
+
+  .curso p{
+    margin-top: 10px;
+  }
+  
+  .intro-cursos .call {
+    padding-top: 20px;
+  }
+
+  /* Produtos-Intro */
+
+  .intro-produtos {
+    height: 780px;
+  }
+
+  .produto {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+  }
+
+  .produto img {
+    margin-bottom: 30px;
+  }
+
+  .produto p {
+    margin-top: 30px;
+    line-height: 20px;
+  }
+
+  .intro-produtos .call {
+    padding-top: 20px;
+  }
+
+  /* Eventos-Intro */
+  
+  .intro-eventos .container {
+    width: 500px;
+  }
+
+  .img-event img {
+    width: 350px;
+    height: 200px;
+  }
+
+  /* Footer */ 
+
+  .footer h3 {
+    text-align: center;
+  }
+
+  div.contato.grid-11 {
+    width: 190px;
+  }
+
+  div.redes.grid-5 {
+    width: 250px;
+  }
+
+  .redes ul {
+    margin-left: 20px;
+  }
+
+  .redes li {
+    margin-right: 10px;
+  }
+
+  .copy .grid-16 {
+    width: 483px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Sobre */ 
+
+  .sobre-sec .container {
+    width: 483px;
+  }
+
+  .sobre-sec h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .sobre-sec h1:after {
+    margin: 6px 0 10px 210px;
+  }
+
+  .sobre-sec p {
+    width: 480px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 30px;
+  }
+
+  .sobre .container{
+    width: 480px;
+  }
+
+  .sobre p {
+    color: #fff;
+  }
+
+  .sobre-cursos {
+    margin-top: 50px;
+    height: 830px;
+    background-image: url("../imagens/maos/maos-pintadas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55%,50%;
+  }
+
+  .paragrafo1 {
+    margin-left: 0px;
+  }
+  
+  .paragrafo2 {
+    margin-right: 0px;
+    display: flex;
+    float: right;
+  }
+
+  /* Cursos */ 
+
+  .curso-intro {
+    height: 1350px;
+  }
+
+  .curso-intro h2, .produtos-intro h2, .eventos-intro h2 {
+    margin-left: 135px;
+  }
+
+  #linha {
+    content: url("../imagens/linha-reta.png");
+    width: 150px;
+    height: 80px;
+    margin-right: 120px;
+  }
+
+  .cada-curso .call {
+    padding: 40px 100px 20px 0;
+  }
+
+  .curso-lista {
+    margin: 20px 0 0 80px;
+  }
+
+  /* Produtos */ 
+
+  .produtos-intro {
+    display: inline-block;
+    width: 483px;
+    height: 1100px;
+  }
+
+  .produtos-intro .call {
+    margin-top: 30px;
+    padding-right: 240px;
+  }
+  
+  .cada-produto p, .produtos-intro h2 {
+    margin-top: 0px;
+  }
+  
+  .iframe {
+    width: 290px;
+    height: 193px;
+    margin-top: 10px;
+  }
+
+  .nome-app {
+    padding-top: 10px;
+  }
+
+  /* Eventos */ 
+
+  .eventos-intro .img-event {
+    margin-right: 20px;
+  }
+
+  .table {
+    margin-top: 50px;
+    width: 450px;
+  }
+
+    
+
+  
+
+  
+  /*Final do Midia*/
+}

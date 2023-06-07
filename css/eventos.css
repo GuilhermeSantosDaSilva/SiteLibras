@@ -1,0 +1,18 @@
+.table {
+  margin-top: 30px;
+  width: 800px;
+}
+
+.table tr td:nth-of-type(odd){
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.table tr td:nth-of-type(even){
+  border: 2px solid gray;
+  padding: 10px;
+}
+
+
+
